@@ -20,9 +20,7 @@
       <ul class="nav navbar-nav">
         <li class="<?php if (isset($active_productos)){echo $active_productos;}?>"><a href="stock.php"><i class='glyphicon glyphicon-barcode'></i> Inventario</a></li>
 		<li class="<?php if (isset($active_categoria)){echo $active_categoria;}?>"><a href="categorias.php"><i class='glyphicon glyphicon-tags'></i> Categorías</a></li>
-		<li class="<?php if (isset($active_usuarios)){echo $active_usuarios;}?>"><a href="usuarios.php"><i  class='glyphicon glyphicon-user'></i> Usuarios</a></li>
-		<li class="<?php if (isset($active_reporte)){echo $active_reporte;}?>"><a href="../truncado"><i class='glyphicon glyphicon-home'></i>Pico Truncado</a></li>
-			<li class="<?php if (isset($active_reporte)){echo $active_reporte;}?>"><a href="../caleta"><i class='glyphicon glyphicon-home'></i>Caleta Olivia</a></li>
+		<li class="<?php if (isset($active_usuarios)){echo $active_usuarios;}?>"><a href="usuarios.php"><i  class='glyphicon glyphicon-user'></i> Usuarios</a></li> 
 			<li class="<?php if (isset($active_reporte)){echo $active_reporte;}?>"><a href="pdf.php"><i class='glyphicon glyphicon-download-alt'></i> Descargar reporte</a></li>
        </ul>
       <ul class="nav navbar-nav navbar-right">
